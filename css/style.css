@@ -1,0 +1,103 @@
+*{
+
+    box-sizing:border-box;
+}
+body{
+    font-family:sans-serif;
+    background-image: url(imgs/ivana.jpg)
+}
+.nav{
+    background-color:#333;
+    list-style-type:none;
+    margin: ;
+    padding: ;
+    overflow: hidden;
+    position:sticky;
+    top:0;
+    
+}
+.nav li {
+    float:left;
+    
+}
+.nav a {
+    display: block;
+    color:white;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration: none;
+    
+    
+}
+.nav a:hover{
+    background-color:black;
+    border-bottom: 2px solid red;
+}
+.nav ul::before{
+    
+}
+ul li a {
+    text-decoration:none;
+}
+
+.side{
+    
+    width:250px;
+    position: fixed;
+    overflow: auto;
+    left:0px;
+    margin: 0;
+    padding:0;
+    border:;
+    text-align: center;
+    float:right;
+    background-color:#f1f1f1;
+    height: 50%
+}
+
+ .side li{
+    list-style-type:none;
+    margin-bottom:20px;
+    width:;
+    text-align: center;
+    margin-top:px;
+    border-collapse: collapse;
+    
+    
+}
+.side a {
+    text-align:center;
+    display:block;
+    padding: 8px 16px;
+    color:#000;
+}
+.side li a:hover{
+    background-color:#555;
+    color:white;
+}
+@media screen and (max-width: 900px) {
+  .side{
+    float: none;
+    display: block;
+    width: 25%
+  }
+}
+.box{
+    border: 2px solid black;
+    max-width: 50%;
+    margin:auto;
+    padding:15px;
+    margin-top: 30px;
+    text-align: justify
+}
+li a.active{
+    background-color:#000;
+    color:white;
+}
+@media screen and (max-width: 900px) {
+  .box{
+    float: none;
+    display: block;
+    width: 80%;
+  }
+}
